@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carnatic Swara Player</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 3em;
+      animation: fadeIn 2s ease-out;
+    }
+
+    button {
+      margin: 30px auto;
+      font-size: 18px;
+      padding: 12px 25px;
+      background-color: #ff5e62;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff3b3f;
+    }
+
+    .instructions {
+      max-width: 600px;
+      margin: 30px auto;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      border-radius: 15px;
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
+
+    .instructions h2 {
+      color: #ffcc00;
+    }
+
+    .gesture {
+      margin-bottom: 10px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🎵 Carnatic Swara Player 🎵</h1>
+  <button onclick="startSwara()">🎬 Start Webcam Detection</button>
+
+  <div class="instructions">
+    <h2>Hand Gesture Guide:</h2>
+    <div class="gesture">✊ <b>Fist</b> → <b>Sa</b></div>
+    <div class="gesture">👍 <b>1 Finger Up(Thumb)</b> → <b>Ri</b></div>
+    <div class="gesture">✌ <b>2 Fingers Up(Ihumb + Index)</b> → <b>Ga</b></div>
+    <div class="gesture">🤟 <b>3 Fingers Up(Ihumb + Index + Middle)</b> → <b>Ma</b></div>
+    <div class="gesture">🖐 <b>4 Fingers Up(Thumb + Index + Middle + Ring) </b> → <b>Pa</b></div>
+    <div class="gesture">🖐 <b>All 5 Fingers</b> → <b>Da</b></div>
+    <div class="gesture">👌 <b>OK Sign</b> → <b>Ni</b></div>
+    <p>Show your hand clearly in front of the webcam to trigger each note.</p>
+  </div>
+
+  <script>
+    function startSwara() {
+      fetch('/start')
+        .then(response => response.text())
+        .then(data => {
+          alert(data);
+        });
+    }
+  </script>
+</body>
+</html>
