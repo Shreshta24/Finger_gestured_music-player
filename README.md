@@ -69,9 +69,9 @@ Gesture-to-Note Mapping (Swara: Ga)
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Name 1]: Shreshta Brijesh
+- [Name 2]: Irin Dominic
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
