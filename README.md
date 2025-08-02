@@ -34,13 +34,11 @@ For Software:
 
 For Hardware:
 - [List main components] - Webcam(built-in)
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+opencv-python,mediapipe,pygame,flask
 
 # Run
 [commands]
