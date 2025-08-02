@@ -1,7 +1,7 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Finger Tunes] 🎯
+# ♫ Finger Tunes ♫
 
 
 ## Basic Details
@@ -32,19 +32,8 @@ For Software:
 - [Libraries used] - OpenCV, MediaPipe, random, pygame
 - [Tools used] - VS Code, GitHub, Chrome (for testing)
 
-For Hardware:
-- [List main components] - Webcam(built-in)
-
-### Implementation
-For Software:
 # Installation
 opencv-python,mediapipe,pygame,flask
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 (Homepage of “Finger Tunes” Web App)
@@ -64,8 +53,6 @@ Gesture-to-Note Mapping (Swara: Ga)
 # Video
 https://drive.google.com/file/d/1xOqK_0pF1yCcCYAggKmZ0wH4CClRjjhh/view?usp=drive_link
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - [Name 1]: Shreshta Brijesh
