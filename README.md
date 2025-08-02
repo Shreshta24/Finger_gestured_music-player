@@ -62,29 +62,6 @@ Gesture-to-Note Mapping (Swara: Ga)
 <img width="1920" height="1080" alt="Screenshot (448)" src="https://github.com/user-attachments/assets/3c3bb96f-7e38-42d3-a268-15f62f610d5a" />
 *This snapshot shows another working example of the Finger Tunes project. The user is performing a different hand gesture (extended fingers) which is correctly recognized as "Swara: Ga", shown in large green text.*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
 ### Project Demo
 # Video
 [Add your demo video link here]
